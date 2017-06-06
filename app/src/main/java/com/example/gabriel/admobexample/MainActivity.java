@@ -58,4 +58,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,BannerActivity.class);
         startActivity(intent);
     }
+
+
+    public void showInterstitialAd(View view) {
+
+        Intent intent=new Intent(this,InterstitialActivity.class);
+        startActivity(intent);
+    }
 }
